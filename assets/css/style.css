@@ -1,0 +1,154 @@
+body {
+	font-family: 'Asap', sans-serif;
+  height: 100%;
+  width: 100%;
+	/* background-color: rgb(2, 62, 115); */
+  background-image: url(../images/bg_2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1 {
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center; */
+	color: white;
+	/* margin-left: 20px; */
+	margin-right: 80px;
+	margin-top: 50px;
+	font-size: 34px;
+	text-align: center;
+}
+
+header {
+	background-color: #18181A;
+	/*margin-bottom: -20px;*/
+	border-bottom: 1px solid grey;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+nav {
+	height: 92px;
+ }
+
+ label {
+ 	font-size: 20px;
+ 	font-weight: bolder;
+ }
+
+ input {
+ 	color: white;
+
+ }
+
+button {
+	margin-top: 8px;
+	padding-right: 10px;
+	text-align: center;
+
+}
+
+
+.headerImage {
+	height: 140px;
+	width: 300px;
+	margin-top: 15px;
+	/*margin-left: 40px;*/
+	/*transition: all .5s linear;
+	margin-left: 80px;*/
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	border: 1px solid #808080;
+}
+
+@keyframes myanimation
+{
+    0%, 50% {
+        margin-left: -500px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+#image {
+	animation: myanimation 2000ms ease;
+}
+
+img {
+	height: 250px;
+	width: 300px;
+
+}
+
+.rate {
+	text-transform: uppercase;
+}
+
+.container {
+	width: 90%;
+}
+
+/* #celeb-input {
+	width: 300px;
+} */
+
+.card .card-content {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+/* #addCeleb {
+	margin-left: 30px;
+} */
+
+
+/*For Side-nav  bar not used currently */
+/* .buttons {
+	margin-left: 10px;
+} */
+
+.btn {
+	text-transform: inherit;
+	/* width: 210px; */
+}
+
+/* .side-nav.fixed {
+	background-color: #18181A;
+} */
+
+
+/* .row {
+	width: 100%;
+} */
+
+/* .main {
+	height: 700px;
+} */
+
+.footer {
+  font-family: 'Asap', sans-serif;
+  height: 20px;
+	border: 2px solid #1e88e5;
+  background-color: #1e88e5;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* position: absolute; */
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* padding: 1rem; */
+  width: 100%;
+  /* margin-left: 700px; */
+  color: white;
+}
