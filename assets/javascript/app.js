@@ -2,18 +2,18 @@
 
 giphyObj = {
   topics: [
-    "Jennifer Lawrence",
-    "Conan O' Brien",
-    "Bill Murray",
-    "Robert Downey Jr.",
-    "Chris Pratt",
-    "Dave Chappelle",
-    "James Franco",
-    "Jon Stewart",
-    "Morgan Freeman",
-    "Nick Offerman",
-    "Scarlett Johansson",
-    "Jason Bateman"
+    "Ironman",
+    "Spiderman",
+    "The Flash",
+    "Captain America",
+    "Star Lord",
+    "Batman",
+    "Black Panther",
+    "Green Lantern",
+    "Superman",
+    "The Hulk",
+    "Thor",
+    "Green Arrow"
   ],
 
 
